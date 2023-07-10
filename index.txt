@@ -149,9 +149,9 @@ Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed vari
 
 #---------- FOOTER ----------#
 
-Hoolix
+Umbrella Agency
 
-Lorem ipsum dolor sit amet consecte tur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+Thank you for visiting our Web Solution Agency. We're dedicated to providing top-notch digital services that leave a lasting impact. Whether it's web design, development, or digital marketing, we're here to help you succeed online. Reach out to us today and let's discuss how we can take your digital presence to new heights. Together, let's create a captivating online experience that drives results and exceeds expectations.
 
 placeholder = Enter your email
 
@@ -178,13 +178,10 @@ Contact Us
 Contact Us
 
 <ion-icon name="location" aria-hidden="true"></ion-icon>
-4517 Washington Ave. Manchester, Kentucky 39495
-
-<ion-icon name="call" aria-hidden="true"></ion-icon>
-+7894631546876
+The World Wide Web.
 
 <ion-icon name="mail" aria-hidden="true"></ion-icon>
-info@hoolix.com
+contact@umbrellaagency.net
 
 <ion-icon name="logo-facebook"></ion-icon>
 <ion-icon name="logo-twitter"></ion-icon>
