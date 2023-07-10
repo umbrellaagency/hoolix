@@ -1,10 +1,10 @@
-Hoolix - Smart Ideas for your Brand are Here
+Umbrella Agency - Real Soultuons, For Real Problems
 
 
 
 #---------- HEADER ----------#
 
-Hoolix
+Umbrella Agency
 
 aria-label = close menu
 
