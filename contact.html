@@ -130,7 +130,7 @@
         <div class="formbold-input-flex">
           <div>
               <label for="firstname" class="formbold-form-label"> First name </label>
-              <input
+              <input required
               type="text"
               name="firstname"
               id="firstname"
@@ -140,7 +140,7 @@
           </div>
           <div>
               <label for="lastname" class="formbold-form-label"> Last name </label>
-              <input
+              <input required
               type="text"
               name="lastname"
               id="lastname"
@@ -153,7 +153,7 @@
         <div class="formbold-input-flex">
           <div>
               <label for="email" class="formbold-form-label"> Mail </label>
-              <input
+              <input required
               type="email"
               name="email"
               id="email"
@@ -163,7 +163,7 @@
           </div>
           <div>
               <label for="phone" class="formbold-form-label"> Phone </label>
-              <input
+              <input required
               type="text"
               name="phone"
               id="phone"
@@ -173,13 +173,13 @@
           </div>
         </div>
 
-        <div class="formbold-input-radio-wrapper">
+        <div class="formbold-input-radio-wrapper" center>
             <label for="jobtitle" class="formbold-form-label"> What are you looking for? </label>
 
             <div class="formbold-radio-flex">
               <div class="formbold-radio-group">
                 <label class="formbold-radio-label">
-                  <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
+                  <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle" required>
                   Web Design
                   <span class="formbold-radio-checkmark"></span>
                 </label>
@@ -188,7 +188,7 @@
               <div class="formbold-radio-group">
                 <label class="formbold-radio-label">
                   <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
-                  <h2></h2>Graphics Design
+                 Graphics Design
                   <span class="formbold-radio-checkmark"></span>
                 </label>
               </div>
@@ -213,11 +213,11 @@
 
         <div>
             <label for="message" class="formbold-form-label"> Message </label>
-            <textarea
+            <textarea required
                 rows="6"
                 name="message"
                 id="message"
-                placeholder="Type your message"
+                placeholder="Give A description About Your Project"
                 class="formbold-form-input"
             ></textarea>
         </div>
@@ -297,7 +297,7 @@
     border-radius: 50%;
   }
   .formbold-radio-label .formbold-input-radio:checked ~ .formbold-radio-checkmark {
-    background-color: #6A64F1;
+    background-color: hsl(145, 63%, 42%);
   }
   .formbold-radio-checkmark:after {
     content: "";
@@ -335,7 +335,7 @@
     color: #536387;
   }
   .formbold-form-input:focus {
-    border-color: #6a64f1;
+    border-color: hsl(145, 63%, 42%);
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
   }
   .formbold-form-label {
@@ -354,7 +354,7 @@
     padding: 14px 25px;
     border: none;
     font-weight: 500;
-    background-color: #6A64F1;
+    background-color: hsl(145, 63%, 42%);
     color: white;
     cursor: pointer;
     margin-top: 25px;
