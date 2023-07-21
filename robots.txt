@@ -1,7 +1,4 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
 User-agent: *
 Allow: /
 
-Sitemap: umbrellaagency.net.xml
+Sitemap: umbrellaagency.net/sitmap.mxl
