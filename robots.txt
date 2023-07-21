@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: umbrellaagency.net/sitmap.mxl
+Sitemap: umbrellaagency.net/sitmap.xml
