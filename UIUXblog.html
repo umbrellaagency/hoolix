@@ -38,13 +38,82 @@
     href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
     rel="stylesheet">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/pensive.css">
+<!--    style csss-->
+    <link rel="stylesheet" href="css/style.css">
+<!--    font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Single Article Template</title>
 </head>
+
+  
 <body>
 
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">Umbrella Agency</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">Umbrella Agency</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="#features" class="navbar-link" data-nav-link>Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="contact.html" class="btn-outline">Lets talk</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
 <!--first-section-->
-<div class="first-section">
+  
+<div class="first-section" style="padding-top: 100px;">
     <div class="container" >
         <div class="row justify-content-center">
             <div class="col-md-9 ">
@@ -57,10 +126,12 @@
                             <span class="d-block text-muted">17th March</span>
                         </div>
                     </div>
-                    <span class="badge badge-light-primary"><i class="fa fa-heart" aria-hidden="true"></i> 28</span>
                 </div>
+</div>
+              
                 <!--//blog section-->
-                <div class="blog-section">
+<section>
+                <div class="blog-section" style="padding-bottom: 100px;"">
                     <img src="./img/blog1.png" class="bounce-little img-fluid shadow-sm rounded " alt="">
                     <p class="lead mt-3">
                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock
@@ -91,108 +162,185 @@
                         <li>Angular is most popular framework on the web.</li>
                     </ul>
                 </div>
-                <!--share section-->
-                <hr>
-                <div class="share text-center d-flex align-items-center justify-content-center">
-                    <span class="mr-3">Share this article:</span>
-                    <i class="fa fa-facebook-square text-primary" aria-hidden="true"></i>
-                    <i class="fa fa-google-plus text-primary" aria-hidden="true"></i>
-                    <i class="fa fa-github text-primary"  aria-hidden="true"></i>
-                </div>
-                <hr>
-
-                <!--comments section-->
-                <div class="comment-section">
-                    <h4>4 Comments</h4>
-                    <div class="media">
-                        <img src="./img/person/person2.png" class="mr-3 rounded-circle" alt="...">
-                        <div class="media-body">
-                            <h6 class="mt-0">John Doe <span class="text-muted small">18 Minutes ago.</span></h6>
-
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                        <div class="reply">
-                            <a  href="#">Reply</a>
-                        </div>
-                    </div>
-
-                    <div class="border-left-warning bg-light p-1">
-                        <div class="media ml-5">
-                            <img src="./img/person/person5.png" class="mr-3 rounded-circle" alt="...">
-                            <div class="media-body">
-                                <h6 class="mt-0">John Doe <span class="text-muted small">Just now.</span></h6>
-
-                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            </div>
-                            <div class="reply">
-                                <a  href="#">Reply</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="media">
-                        <img src="./img/person/person6.png" class="mr-3 rounded-circle" alt="...">
-                        <div class="media-body">
-                            <h6 class="mt-0">Kajal Aaggrwal <span class="text-muted small">18 Minutes ago.</span></h6>
-
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                        <div class="reply">
-                            <a  href="#">Reply</a>
-                        </div>
-                    </div>
-                    <div class="media">
-                        <img src="./img/person/person4.png" class="mr-3 rounded-circle" alt="...">
-                        <div class="media-body">
-                            <h6 class="mt-0">Nancy <span class="text-muted small">18 Minutes ago.</span></h6>
-
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        </div>
-                        <div class="reply">
-                            <a  href="#">Reply</a>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="post-comment">
-                        <h1 class="h2">Post a comment</h1>
-                        <form>
-                            <div class="form-row">
-                                <div class="col">
-                                    <input type="text" class="form-control" placeholder="Name">
-                                </div>
-                                <div class="col">
-                                    <input type="text" class="form-control" placeholder="Email Address">
-                                </div>
-                            </div>
-                            <div class="form-group mt-3">
-                                <textarea class="form-control" cols="10" rows="5" placeholder="Comment here."></textarea>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" checked>
-                                    <label class="custom-control-label" for="customCheck1">Ping me</label>
-                                </div>
-                                <button class="btn btn-primary">Post</button>
-                            </div>
-                        </form>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
+          </div>
 </div>
+      
+</section> 
+          
 <!--end first-section-->
 
-<!--footer-section-->
-<div class="py-4 text-center bg-warning mt-5">
-    <p class="m-0">Copyright by Boocatch.com 2019-2020, all right reserved.</p>
-</div>
-<!--end footer section-->
+   <footer class="footer">
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <div class="footer-top section">
+          <div class="container">
+
+            <div class="footer-brand">
+
+              <a href="#" class="logo">Umbrella Agency</a>
+
+              <p class="footer-text">
+                Thank you for visiting our Web Solution Agency. We're dedicated to providing top-notch digital services
+                that leave a lasting impact. Whether it's web design, development, or digital marketing, we're here to
+                help you succeed online.
+              </p>
+
+              <form action="" class="newsletter-form">
+                <input type="email" name="email_address" placeholder="Enter your email" required class="email-field">
+
+                <button type="submit" class="form-btn">
+                  <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+                </button>
+              </form>
+
+            </div>
+
+            <ul class="footer-list">
+
+              <li>
+                <p class="footer-list-title">Our Services</p>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Strategy & Research</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Web Development</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Web Solution</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Digital Merketing</a>
+              </li>
+
+            </ul>
+
+            <ul class="footer-list">
+
+              <li>
+                <p class="footer-list-title">Company</p>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">About Company</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Our Services</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Our Portfolio</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Our Blog</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Latest News</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Contact Us</a>
+              </li>
+
+            </ul>
+
+            <ul class="footer-list">
+
+              <li>
+                <p class="footer-list-title">Contact Us</p>
+              </li>
+
+              <li class="footer-item">
+                <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+                <address class="contact-link address">
+                  The World Wide Web.
+                </address>
+
+              <li class="footer-item">
+                <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+                <a href="mailto:contact@umbrellaagency.net" class="contact-link">contact@umbrellaagency.net</a>
+              </li>
+
+              <li class="footer-item">
+                <ul class="social-list">
+
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-pinterest"></ion-icon>
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="container">
+
+            <p class="copyright">
+              &copy; 2023 UmbrellaAgency | All Rights Reserved
+            </p>
+
+            <ul class="footer-bottom-list">
+
+              <li>
+                <a href="privacy-policy.html" class="footer-bottom-link">Privacy Policy</a>
+              </li>
+
+              <li>
+                <a href="terms.html" class="footer-bottom-link">Terms of Use</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+
+      </footer>
+
 </body>
+
+       <!-- 
+    - custom js link
+  -->
+      <script src="./assets/js/script.js"></script>
+
+      <!-- 
+    - ionicon link
+  -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  
 </html>
